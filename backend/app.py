@@ -74,3 +74,6 @@ def delete_diary(diary_id):
     table.delete_item(Key={'id': diary_id})
     
     return jsonify(diary)
+
+def upload_file(file):
+    pass
